@@ -1,0 +1,38 @@
+p {
+    width: 200px;
+	font-size: 150%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+table {
+    box-shadow: 0 0 3px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 160px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+h4 {
+    color: #807e7e;
+}
+
+.boutton {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 5px;
+      }
+
+
+img {
+    width: 180px;
+    padding: 10px;
+}

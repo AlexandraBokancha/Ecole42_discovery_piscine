@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-image: url('https://voyagesphilibert.fr/wp-content/uploads/2023/01/fond-trains-legendaires-suisses.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(146, 146, 146, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .5 ease;
+    border-radius: 0 30px;
+}
+
+nav ul li a:hover {
+    background: rgba(22, 22, 22, 0.1);
+    color: #fff;
+}
+
+nav ul ul{
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background: rgba(41, 26, 41, 0.1);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(109, 61, 153, 0.1);
+}
+
+nav ul span {
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+}
+
+nav ul .dropdown {
+    position: relative;
+}
+
+nav ul .dropdown:hover ul {
+    display: initial;
+}
